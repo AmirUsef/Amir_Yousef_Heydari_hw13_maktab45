@@ -1,0 +1,49 @@
+[{
+        "brand": "BMW",
+        "model": "i8",
+        "power": "360",
+        "0-60mph": "4.3",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minima veniam deserunt dolorum magnam numquam illum iure eaque ullam sequi repellat tempora, sapiente, cum perferendis doloribus officiis dolor placeat laudantium?",
+        "img": "https://parkers-images.bauersecure.com/Scale/pagefiles/195838/cut-out/900x600/bmw-i8-002.jpg"
+    },
+    {
+        "brand": "AUDI",
+        "model": "A8",
+        "power": "300",
+        "0-60mph": "4.7",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minima veniam deserunt dolorum magnam numquam illum iure eaque ullam sequi repellat tempora, sapiente, cum perferendis doloribus officiis dolor placeat laudantium?",
+        "img": "https://parkers-images.bauersecure.com/pagefiles/259139/cut-out/420x280/audi_a8_tfsie_000.jpg"
+    },
+    {
+        "brand": "Nissan",
+        "model": "GT-R",
+        "power": "570",
+        "0-60mph": "3.0",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minima veniam deserunt dolorum magnam numquam illum iure eaque ullam sequi repellat tempora, sapiente, cum perferendis doloribus officiis dolor placeat laudantium?",
+        "img": "https://parkers-images.bauersecure.com/pagefiles/196106/cut-out/420x280/nissan-skyline.jpg"
+    },
+    {
+        "brand": "Mercedes-Benz",
+        "model": "C-Class Coupe",
+        "power": "180",
+        "0-60mph": "7.6",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minima veniam deserunt dolorum magnam numquam illum iure eaque ullam sequi repellat tempora, sapiente, cum perferendis doloribus officiis dolor placeat laudantium?",
+        "img": "https://parkers-images.bauersecure.com/pagefiles/205121/cut-out/331x220/mercedes-c-class-01.jpg"
+    },
+    {
+        "brand": "Bentley",
+        "model": "Flying Spur",
+        "power": "542",
+        "0-60mph": "4.0",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minima veniam deserunt dolorum magnam numquam illum iure eaque ullam sequi repellat tempora, sapiente, cum perferendis doloribus officiis dolor placeat laudantium?",
+        "img": "https://parkers-images.bauersecure.com/Scale/pagefiles/317189/cut-out/900x600/bentley-flying-spur-01.jpg"
+    },
+    {
+        "brand": "Ferrari",
+        "model": "812 Superfast Coupe",
+        "power": "788",
+        "0-60mph": "2.8",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minima veniam deserunt dolorum magnam numquam illum iure eaque ullam sequi repellat tempora, sapiente, cum perferendis doloribus officiis dolor placeat laudantium?",
+        "img": "https://parkers-images.bauersecure.com/Scale/pagefiles/256861/cut-out/900x600/812.jpg"
+    }
+]
