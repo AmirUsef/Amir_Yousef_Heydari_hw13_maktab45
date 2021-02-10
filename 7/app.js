@@ -3,9 +3,9 @@ const app = express();
 const path = require('path')
 const about = require('./routes/about');
 const contact = require('./routes/contact');
-const cards = require('./routes/cards');
+const cars = require('./routes/cars');
 
-app.use(express.static(path.join(__dirname, "public")))
+app.use(express.static("public"))
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + "\\public\\index.html");
@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 app.use('/about', about)
 app.use('/contact', contact)
-app.use('/cards', cards)
+app.use('/cars', cars)
 
 app.listen(5005, () => {
     console.log("server is running on port 5005 ...");
