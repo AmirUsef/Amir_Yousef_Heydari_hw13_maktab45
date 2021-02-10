@@ -1,80 +1,117 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
+    font-size: 16px;
 }
 
-span input {
-    width: 500px;
-    position: absolute;
-    left: 100px;
-    border: none;
-    border-bottom: 2px solid gray;
+.aboutus-section {
+    padding: 90px 0;
 }
 
-span p {
-    color: red;
-    position: absolute;
-    left: 605px;
-    top: -10px;
-}
-
-.modal-body p {
-    margin: 7px 0;
-    width: 100%;
-}
-
-.modal-body span {
-    position: relative;
-}
-
-#pagInation {
-    float: left;
-}
-
-#addBtn {
-    border: 1px solid gray;
-    border-radius: 50%;
-    background-color: gray;
-    color: white;
+.aboutus-title {
     font-size: 30px;
-    font-weight: bold;
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-    float: right;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
 }
 
-.btn {
-    padding: 7px 10px;
-    margin-left: 7px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
+.aboutus-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
 }
 
-.updateBtn {
-    border: 1px solid rgb(238, 163, 0);
-    background-color: rgb(238, 163, 0);
-    border-radius: 5px;
+.aboutus-text {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
 }
 
-.removeBtn {
-    border: 1px solid rgb(221, 48, 48);
-    background-color: rgb(221, 48, 48);
-    border-radius: 5px;
+a:hover,
+a:active {
+    color: #ffb901;
+    text-decoration: none;
+    outline: 0;
 }
 
-.saveBtn {
-    border: 1px solid rgb(38, 153, 10);
-    background-color: rgb(38, 153, 10);
-    border-radius: 5px;
+.aboutus-more {
+    border: 1px solid #fdb801;
+    border-radius: 25px;
+    color: #fdb801;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
 }
 
-.createBtn {
-    border: 1px solid rgb(0, 109, 211);
-    background-color: rgb(0, 109, 211);
-    border-radius: 5px;
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
 }
 
-.card-img-top {
-    height: 348px;
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.icon {
+    color: #f4b841;
+    padding: 0px;
+    font-size: 40px;
+    border: 1px solid #fdb801;
+    border-radius: 100px;
+    color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+
 }
